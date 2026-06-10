@@ -15,5 +15,5 @@ test('login flow simulation', async ({ page }) => {
   await page.click('button[type="submit"]');
 
   // assertion
-  await expect(page.locator('#flash')).toContainText('You logged into a secure area!');
+  await expect(page.locator('#flash')).toContainText('You log into a secure area!');
 });
