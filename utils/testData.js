@@ -3,4 +3,4 @@ export const users = {
         username: 'tomsmith',
         password: 'SuperSecretPassword!'
     }
-},
+}
