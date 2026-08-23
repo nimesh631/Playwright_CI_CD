@@ -12,7 +12,7 @@
     await page.goto('https://example.com');
 
     // We simulate UI check using API data
-    await expect(page).toHaveTitle(/google/);
+    await expect(page).toHaveTitle(/Example/);
 
     console.log('User from API:', user.name);
   });

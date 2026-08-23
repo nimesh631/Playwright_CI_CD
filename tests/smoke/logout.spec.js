@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('smoke logout test @smoke', async ({ page }) => {
+test('smoke logout test', async ({ page }) => {
   await page.goto('https://the-internet.herokuapp.com/login');
 
   await page.fill('#username', 'tomsmith');
