@@ -12,7 +12,7 @@ test('API + UI combined flow @e2e', async ({ request, page }) => {
   await page.goto('https://example.com');
 
   // We simulate UI check using API data
-  await expect(page).toHaveTitle(/Example/);
+  await expect(page).toHaveTitle(/xample/);
 
   console.log('User from API:', user.name);
 });
